@@ -1,4 +1,5 @@
 Summary:	CGI applications in C library
+Summary(pl):	Biblioteka C dla aplikacji CGI
 Name:		libcgi
 Version:	1.0
 Release:	1
@@ -13,9 +14,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 LibCGI is a library written from scratch to easily make CGI
-applications in C. There are a lot of functions like string manipulation,
-session and cookie support, GET and POST methods manipulation etc...,
-to help you to quickly write powerful CGI programs.
+applications in C. There are a lot of functions like string
+manipulation, session and cookie support, GET and POST methods
+manipulation etc., to help you to quickly write powerful CGI programs.
+
+%description -l pl
+LibCGI to napisana od zera bibioteka do ³atwego tworzenia aplikacji
+CGI w C. Zawiera wiele funkcji do operacji na ³añcuchach znaków,
+obs³ugi sesji i ciasteczek, metod GET i POST itp.
 
 %package devel
 Summary:	Header files for libcgi library
