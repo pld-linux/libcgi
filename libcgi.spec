@@ -1,5 +1,5 @@
 Summary:	CGI applications in C library
-Summary(pl):	Biblioteka C dla aplikacji CGI
+Summary(pl.UTF-8):   Biblioteka C dla aplikacji CGI
 Name:		libcgi
 Version:	1.0
 Release:	1
@@ -18,33 +18,33 @@ applications in C. There are a lot of functions like string
 manipulation, session and cookie support, GET and POST methods
 manipulation etc., to help you to quickly write powerful CGI programs.
 
-%description -l pl
-LibCGI to napisana od zera bibioteka do ³atwego tworzenia aplikacji
-CGI w C. Zawiera wiele funkcji do operacji na ³añcuchach znaków,
-obs³ugi sesji i ciasteczek, metod GET i POST itp.
+%description -l pl.UTF-8
+LibCGI to napisana od zera bibioteka do Å‚atwego tworzenia aplikacji
+CGI w C. Zawiera wiele funkcji do operacji na Å‚aÅ„cuchach znakÃ³w,
+obsÅ‚ugi sesji i ciasteczek, metod GET i POST itp.
 
 %package devel
 Summary:	Header files for libcgi library
-Summary(pl):	Pliki nag³ówkowe biblioteki libcgi
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki libcgi
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for libcgi library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki libcgi.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki libcgi.
 
 %package static
 Summary:	Static libcgi library
-Summary(pl):	Statyczna biblioteka libcgi
+Summary(pl.UTF-8):   Statyczna biblioteka libcgi
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libcgi library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libcgi.
 
 %prep
