@@ -1,5 +1,5 @@
 Summary:	CGI applications in C library
-Summary(pl.UTF-8):   Biblioteka C dla aplikacji CGI
+Summary(pl.UTF-8):	Biblioteka C dla aplikacji CGI
 Name:		libcgi
 Version:	1.0
 Release:	1
@@ -25,7 +25,7 @@ obsługi sesji i ciasteczek, metod GET i POST itp.
 
 %package devel
 Summary:	Header files for libcgi library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libcgi
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libcgi
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -37,7 +37,7 @@ Pliki nagłówkowe biblioteki libcgi.
 
 %package static
 Summary:	Static libcgi library
-Summary(pl.UTF-8):   Statyczna biblioteka libcgi
+Summary(pl.UTF-8):	Statyczna biblioteka libcgi
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
