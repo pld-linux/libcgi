@@ -5,7 +5,7 @@ Version:	1.0
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
-Source0:	http://dl.sourceforge.net/libcgi/%{name}-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/libcgi/%{name}-%{version}.tar.gz
 # Source0-md5:	110af367081d33c7ed6527a1a60fc274
 URL:		http://libcgi.sourceforge.net/
 BuildRequires:	autoconf
@@ -78,14 +78,15 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS BUGS ChangeLog README THANKS TODO
-%attr(755,root,root) %{_libdir}/lib*.so
+%attr(755,root,root) %{_libdir}/libcgi.so
 
 %files devel
 %defattr(644,root,root,755)
 %doc examples/*
-%{_includedir}/*.h
-%{_mandir}/man3/*.3*
+%{_includedir}/cgi.h
+%{_includedir}/session.h
+%{_mandir}/man3/libcgi_*.3*
 
 %files static
 %defattr(644,root,root,755)
-%{_libdir}/lib*.a
+%{_libdir}/libcgi.a
